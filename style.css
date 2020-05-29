@@ -1,9 +1,17 @@
 body{
-    background-color: #76FF03;
+    background-color: #64DD17;
 }
 
 #heading{
     text-align: center;
     color: white;
     font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #heading{
+        text-align: center;
+        color: white;
+        font-size: 80px;
+    }
 }
